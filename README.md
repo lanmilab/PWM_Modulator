@@ -5,4 +5,4 @@ Applications:
   - High efficiency power drivers
   - Class D amplifiers
 
-[twitter.com/lanmiLab]: https://twitter.com/lanmiLab
+<a href="https://twitter.com/lanmiLab">twitter.com/lanmiLab</a>
