@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Workspace\Development\uHelios\Design\MicroHelios_PWM_Modulator\LanmiLab_PWM_Modulator.sch</source>
+    <date>3/31/2020 4:40:17 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LanmiLab_PWM_Modulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>Quad Opamp</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm6144.pdf</datasheet>
+      <fields>
+        <field name="Part Number">LM6144BIN/NOPB</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="OPA4376" description="Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4A1117</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>Quad Comparator</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MAX944CPD+</field>
+      </fields>
+      <libsource lib="Comparator" part="MCP6569" description="Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4BABD6</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>Trimpot 12 turns</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2061259.pdf?_ga=2.186685352.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">3266W-1-104LF</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_Small" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4C96E7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1723855.pdf?_ga=2.88920347.1616951039.1585501124-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F2K2</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4C684E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>62K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2710513.pdf?_ga=2.215127959.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F62K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4CDE22</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>68pF/5%/C0G</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2045792.pdf?_ga=2.211851028.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">K680J15C0GF53L2</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4FCBB5</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773241&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F47K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E508915</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773241&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F47K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E509775</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>68pF/5%/C0G</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2045792.pdf?_ga=2.211851028.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">K680J15C0GF53L2</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E529CED</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>68pF/5%/C0G</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2045792.pdf?_ga=2.211851028.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">K680J15C0GF53L2</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4CF605</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>68pF/5%/C0G</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2045792.pdf?_ga=2.211851028.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">K680J15C0GF53L2</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5226BD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack3</value>
+      <footprint>Jack:FC68131CLIFF</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2028381.pdf?_ga=2.14349751.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">FC68131</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E693BAE</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Note">Not Populated, Configuration Jumper</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E64EB2D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF/25V</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2738428.pdf?_ga=2.249617286.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">C315C105K3R5TA</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E60DD3A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1723855.pdf?_ga=2.88920347.1616951039.1585501124-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F2K2</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6031FC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1723855.pdf?_ga=2.88920347.1616951039.1585501124-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F2K2</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6031F5</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1050.pdf</datasheet>
+      <fields>
+        <field name="Part Number">ECEA0JKA470</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5F200E</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite_Bead</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2048185.pdf?_ga=2.177853605.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">BL02RN1R2M2B</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5DF012</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773241&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F47K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E510B3F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773241&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F47K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E50F44B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF/25V</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2738428.pdf?_ga=2.249617286.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">C315C105K3R5TA</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E93B629</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF/25V</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2738428.pdf?_ga=2.249617286.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">C315C105K3R5TA</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9431F9</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Note">Not Populated, Configuration Jumper</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E848523</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Conn_01x15</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="Part Number">61301511121</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E56E823</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Conn_01x15</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="Part Number">61301511121</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5753F1</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773241&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F47K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA3D7C5</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773241&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F47K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA42229</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>R_POT_Small</value>
+      <footprint>Potentiometer_THT:Potentiometer_Omeg_PC16BU_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1727905.pdf?_ga=2.145430455.2071986345.1583145430-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">PDB181-K220K-103B</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_Small" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE4D0A0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Header 1X4</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Note">For Breakout/Module</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F12B0FC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>23K7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2046132.pdf?_ga=2.121100552.1616951039.1585501124-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">MRS25000C2372FCT00</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4CCCDB</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>23K7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2046132.pdf?_ga=2.121100552.1616951039.1585501124-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">MRS25000C3092FCT00</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9B7CA7</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>23K7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2046132.pdf?_ga=2.121100552.1616951039.1585501124-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">MRS25000C3092FCT00</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA33B3B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>23K7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2046132.pdf?_ga=2.121100552.1616951039.1585501124-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">MRS25000C2372FCT00</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4E7409</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773241&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F47K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E976DB2</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773241&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F47K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E97AF39</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA1679</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Comparator" part="MCP6569">
+      <description>Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6569</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="openCol"/>
+        <pin num="8" name="~" type="openCol"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack3">
+      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3</field>
+      </fields>
+      <pins>
+        <pin num="R" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x15">
+      <description>Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_Small">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Comparator">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Comparator.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="JP1" pin="1"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="P1" pin="2"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P1" pin="14"/>
+      <node ref="U1" pin="11"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="P2" pin="4"/>
+      <node ref="J1" pin="S"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="4" name="/FBIN1">
+      <node ref="R13" pin="2"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="5" name="/FBIN2">
+      <node ref="R12" pin="2"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="6" name="/OUT1">
+      <node ref="U2" pin="1"/>
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="7" name="/OUT2">
+      <node ref="U2" pin="7"/>
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="8" name="/INL">
+      <node ref="J2" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J1" pin="T"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="9" name="Net-(P2-Pad13)">
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="10" name="Net-(P2-Pad12)">
+      <node ref="P2" pin="12"/>
+    </net>
+    <net code="11" name="Net-(P2-Pad11)">
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="12" name="/CLKOUT">
+      <node ref="P2" pin="10"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="13" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(P1-Pad9)">
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="15" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="16" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="17" name="VS">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad13)">
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="19" name="Net-(P1-Pad11)">
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="20" name="Net-(P1-Pad10)">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="21" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C5-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="23" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="24" name="/REF">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U1" pin="10"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(C6-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="26" name="Net-(P2-Pad14)">
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="27" name="Net-(C8-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="28" name="VCC">
+      <node ref="U2" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="29" name="/INR">
+      <node ref="J1" pin="R"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="30" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C6-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="32" name="Net-(P2-Pad7)">
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="33" name="Net-(P2-Pad6)">
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="34" name="Net-(P2-Pad5)">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="35" name="Net-(P2-Pad3)">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="36" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="37" name="Net-(P2-Pad15)">
+      <node ref="P2" pin="15"/>
+    </net>
+    <net code="38" name="/TRG">
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="39" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="40" name="Net-(C4-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="41" name="Net-(R11-Pad1)">
+      <node ref="U1" pin="14"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R6-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R7-Pad1)">
+      <node ref="U2" pin="14"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R5-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="45" name="/FBREF">
+      <node ref="U1" pin="5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="46" name="Net-(FB1-Pad1)">
+      <node ref="FB1" pin="1"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+  </nets>
+</export>
